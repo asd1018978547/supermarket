@@ -1,0 +1,90 @@
+[
+  {
+    "index": "1",
+    "cls": "el-icon-s-goods",
+    "title": "商品管理",
+    "userGroup": ["0","1","2"],
+    "children": [
+      {
+        "index": "/home/goods",
+        "name": "商品管理"
+      },
+      {
+        "index": "/home/addgoods",
+        "name": "添加商品"
+      }
+    ]
+  },
+  {
+    "index": "2",
+    "cls": "el-icon-user-solid",
+    "title": "账号管理",
+    "userGroup": ["0"],
+    "children": [
+      {
+        "index": "/home/user",
+        "name": "账号管理"
+      },
+      {
+        "index": "/home/changepwd",
+        "name": "修改密码"
+      },
+      {
+        "index": "/home/addaccount",
+        "name": "增加账号"
+      }
+    ]
+  },
+  {
+    "index": "3",
+    "cls": "el-icon-circle-plus",
+    "title": "进货管理",
+    "userGroup": ["0","1","2"],
+    "children": [
+      {
+        "index": "/home/stock",
+        "name": "库存管理"
+      },
+      {
+        "index": "/home/addstock",
+        "name": "添加库存"
+      }
+    ]
+  },
+  {
+    "index": "4",
+    "cls": "el-icon-remove",
+    "title": "出货管理",
+    "userGroup": ["0","1","2"],
+    "children": [
+      {
+        "index": "/home/sell",
+        "name": "销售列表"
+      },
+      {
+        "index": "/home/sellout",
+        "name": "商品出库"
+      },
+      {
+        "index": "/home/sellback",
+        "name": "商品退货"
+      }
+    ]
+  },
+  {
+    "index": "5",
+    "cls": "el-icon-s-data",
+    "title": "统计管理",
+    "userGroup": ["0","1"],
+    "children": [
+      {
+        "index": "/home/countout",
+        "name": "销售统计"
+      },
+      {
+        "index": "/home/countin",
+        "name": "进货统计"
+      }
+    ]
+  }
+]

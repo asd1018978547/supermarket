@@ -1,0 +1,10 @@
+地址：127.0.0.1:8888
+
+//登录
+url:/login
+type:post
+params:
+    account 字符串
+    password 字符串
+return：
+    msg
